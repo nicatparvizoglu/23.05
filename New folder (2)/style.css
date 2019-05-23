@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.yemek{
+    width: 23.94%;
+    float: left;
+    margin: 10px;
+    position: relative;
+
+
+    
+}
+
+.logo{
+    width: 20%;
+} 
+.header{
+    background: red;
+    width: 10px;
+    top: 10;
+    left: 10;
+    right: 10;
+
+}
+img{
+    width: 100%;
+    
+}
+
+.box p{
+    position: relative;
+    top: 30px;
+
+
+}
+
+.box:hover p{
+    transition: all 0.5s;
+    top: 0;
+}
+
+.box{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: black;
+    opacity: 0;
+    color: white;
+    text-align: center;
+    line-height: 400px;
+    font-size: 20px;
+}
+.yemek:hover .box{
+    opacity: 0.8;
+    transition: all 1s;
+}
